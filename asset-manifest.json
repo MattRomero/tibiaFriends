@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tibiaFriends/static/css/main.9b1431d8.chunk.css",
+    "main.js": "/tibiaFriends/static/js/main.9e6aa121.chunk.js",
+    "main.js.map": "/tibiaFriends/static/js/main.9e6aa121.chunk.js.map",
+    "runtime-main.js": "/tibiaFriends/static/js/runtime-main.1a7afb11.js",
+    "runtime-main.js.map": "/tibiaFriends/static/js/runtime-main.1a7afb11.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/tibiaFriends/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.23c149f8.chunk.js": "/tibiaFriends/static/js/2.23c149f8.chunk.js",
+    "static/js/2.23c149f8.chunk.js.map": "/tibiaFriends/static/js/2.23c149f8.chunk.js.map",
+    "index.html": "/tibiaFriends/index.html",
+    "precache-manifest.509694c9b8b6f4231016b874a36220bc.js": "/tibiaFriends/precache-manifest.509694c9b8b6f4231016b874a36220bc.js",
+    "service-worker.js": "/tibiaFriends/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/tibiaFriends/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.9b1431d8.chunk.css.map": "/tibiaFriends/static/css/main.9b1431d8.chunk.css.map",
+    "static/js/2.23c149f8.chunk.js.LICENSE": "/tibiaFriends/static/js/2.23c149f8.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a7afb11.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.23c149f8.chunk.js",
+    "static/css/main.9b1431d8.chunk.css",
+    "static/js/main.9e6aa121.chunk.js"
+  ]
+}
