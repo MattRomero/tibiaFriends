@@ -15,12 +15,12 @@ export function Char(props) {
   }
   let char = { index: props.index, name: props.char["name"], level: props.char["level"] }
   return (
-    <tr onClick={ () => { props.clickChar(char) } } 
-      className={props.char["status"] === "online" ? "table-success" : " "}>
+    <tr onClick={ () => { props.clickChar(char) } } >
 
       <td>{props.char["rank"]}</td>
       <td>{props.char["name"]} {podium}</td>
       <td>{props.char["level"]}</td>
+      <td className={props.char["status"] === "online" ? "text-success" : "text-danger"}>{props.char["status"]}</td>
       <td>
         {Math.round((props.char["level"] / 3) * 2)} -{" "}
         {Math.round((props.char["level"] / 2) * 3)}

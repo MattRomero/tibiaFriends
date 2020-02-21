@@ -18,6 +18,7 @@ export function CharList(props) {
             <th>#</th>
             <th>Name</th>
             <th>Level</th>
+            <th>Status</th>
             <th>Sharing levels</th>
           </tr>
         </thead>
