@@ -29,6 +29,8 @@ export function CharList(props) {
               index={index}
               key={index}
               activeChar={index == props.activeChar.index ? true : false}
+              activeMaxLevelShare={props.activeChar.maxLevelShare}
+              activeMinLevelShare={props.activeChar.minLevelShare}
             />
           ))}
         </tbody>

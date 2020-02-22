@@ -16,6 +16,9 @@ function App() {
       <Row>
         <h1>Tibia ranking</h1>
       </Row>
+      <Row className="align-items-center">
+       <span className="dot"></span>Sharing partners
+      </Row>
       <Row>
         <Rank />
       </Row>

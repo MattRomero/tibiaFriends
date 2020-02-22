@@ -26,7 +26,7 @@ export class Rank extends React.Component {
       ],
       charList: [],
       loading: true,
-      activeChar: "",
+      activeChar: false,
     };
   }
   
