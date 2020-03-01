@@ -10,7 +10,8 @@ import { Char } from "../components/char";
 export function CharList(props) {
   if (props.loading) {
     return <HashLoader size={50} color={"#343a40"} loading={props.loading} />;
-  } else {
+  } 
+  else {
     return (
       <Table bordered hover size="sm">
         <thead className="thead-dark">
