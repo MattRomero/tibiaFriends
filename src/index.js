@@ -27,5 +27,4 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
-// Actualizacion de Version React 16.12.0 a React 16.14.0
 ReactDOM.render(<App />, rootElement);

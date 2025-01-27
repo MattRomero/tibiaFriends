@@ -9,20 +9,20 @@ export class Rank extends React.Component {
       chars: [
         "Radagatsio",
         "Ardillon",
-        "Dimitrij del Toro", // Cambia + por espacios normales
+        "Dimitrij del Toro",
         "King Nakio",
         "Loko Zwisky",
         "Sweetbullet",
         "Roluhnx",
         "Cropolito",
         "Stwuee",
-        "Zapatilla the Cat", // Cambia + por espacios normales
+        "Zapatilla the Cat",
         "Archer del Yoda",
         "Loko Kenos",
         "Borgolito",
         "Rolo Manyin",
         "Sousi Taro",
-        "Ardillon the Great", // Cambia + por espacios normales
+        "Ardillon the Great",
         "Gordo Vegano",
         "Eldermake"
       ],
@@ -41,7 +41,7 @@ export class Rank extends React.Component {
     await asyncForEach(charsToLoad, async (char) => {
       let charInfo = await this.getChar(char);
       if (charInfo) {
-        loadedCharList.push(charInfo); // Solo se agregan objetos válidos
+        loadedCharList.push(charInfo);
       }
     });
   
@@ -50,8 +50,8 @@ export class Rank extends React.Component {
       return [];
     }
   
-    loadedCharList.sort((a, b) => b.level - a.level); // Ordena por nivel
-    loadedCharList = this.rankChars(loadedCharList); // Asigna rangos
+    loadedCharList.sort((a, b) => b.level - a.level);
+    loadedCharList = this.rankChars(loadedCharList);
     return loadedCharList;
   };
   // getChar() returns the object with the char's info
@@ -65,8 +65,8 @@ export class Rank extends React.Component {
       }
       let data = await response.json();
   
-      if (data && data.character && data.character.character) {
-        return data.character.character; // Devuelve la información del personaje
+      if (data?.character?.character) {
+        return data.character.character;
       } else {
         console.error(`Error: Respuesta inesperada para ${charName}`, data);
         return null;
