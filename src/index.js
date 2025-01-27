@@ -17,7 +17,7 @@ function App() {
         <h1>Tibia ranking</h1>
       </Row>
       <Row className="align-items-center">
-       <span className="dot"></span>Sharing partners
+        <span className="dot"></span>Sharing partners
       </Row>
       <Row>
         <Rank />
@@ -27,4 +27,5 @@ function App() {
 }
 
 const rootElement = document.getElementById("root");
+// Actualizacion de Version React 16.12.0 a React 16.14.0
 ReactDOM.render(<App />, rootElement);

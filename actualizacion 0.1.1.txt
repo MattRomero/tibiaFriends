@@ -1,0 +1,8 @@
+actualizacion npm update.
+actualizacion Node.js v10.9.2 Actualiza el proyecto para que sea compatible con Node.js v23.6.0.
+"rank.js" se modifico los nombres de los chars, respuesta a errores en la consola y la llamada a la API; loadChars, getChar, rankChar.
+"index.js" se actualizo import react-dom
+"package.json" se actualizo react, react-dom y react-script
+actualizacion plugin babel/plugin-proposal-private-property-in-object"
+cambios a tema oscuro en "styles.css"
+modificacion del icon en index.html

@@ -16,4 +16,25 @@
 .row {
   margin-top: 5px;
   margin-bottom: 5px;
+  color: white;
+}
+
+.container {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+td {
+  color: white;
+}
+
+.table-warning, .table-warning>td, .table-warning>th {
+  background-color: rgb(3, 112, 112);
 }
